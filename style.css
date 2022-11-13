@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #fdfdfd;
+
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    margin-top: 20px;
+}
+.nav .logo{
+    display: flex;
+    margin-right: 2px;
+    gap: 5px;
+}
+.nav .logo h3{
+    color: black;
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav .logo .box{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fdfdfd;
+}
+.nav .logo .box h3{
+    color: #fdfdfd;
+}
+.nav .links{
+    display: flex;
+    gap: 50px;
+    
+}
+.nav .links a{
+    text-decoration: none;
+    color: #5b5b5b;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav .serch{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #d1cbcb ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav .serch i{
+    font-size: 20px;
+}
+.a{
+    color: black !important;
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+}
+.main .home{
+    display: flex;
+}
+.main .home .left{
+    width: 55%;
+    height: 80vh;
+    padding-left: 70px;
+    padding-top: 40px;
+}
+.main .home .left h1{
+    font-size: 50px;
+    width: 70%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main .home .left p{
+    color: #a7a2a2;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.main .home .left .box-a{
+    width: 62%;
+    height: 50px;
+    background-color: #e0e6eb;
+    margin-top: 30px;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 0 40px;
+}
+.main .home .left .box-a i{
+    font-size: 20px;
+    color: #a7a2a2;
+}
+.main .home .left .box-a input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #e0e6eb;
+}
+.main .home .left .box-a button{
+    padding: 10px 17px;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    margin-left: 20%;
+    background-color: black;
+    color: azure;
+}
+.main .home .right{
+    position: relative;
+    width: 45%;
+    height: 80vh;
+}
+.main .home .right .card-1{
+    z-index: -1;
+    width: 35%;
+    height: 60%;
+    margin-left: 5%;
+    margin-top: 10%;
+    transform: rotate(-20deg);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: .1px solid #ebe8e8;
+}
+.main .home .right .card-1 .img{
+    width: 100%;
+    height: 60%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB3Nofk-_rAa84bLjCUIicXgjNHVivHtSCSvHw88-F04jLqKrvljZjvWUMSjLAKqDW7Z8&usqp=CAU);
+    background-position: top;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.main .home .right .card-1 .name{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .home .right .card-1 .name .na{
+    width: 70%;
+    height: 100%;
+    padding: 8px;
+    margin-left: 9px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main .home .right .card-1 .name .min-img{
+    width: 25%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .home .right .card-1 .name .min-img .m-i{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+}
+.main .home .right .card-1 .bottom{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(57, 56, 56);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.main .home .right .card-2{
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    background-color: whitesmoke;
+    margin-left: 15%;
+    margin-top: -45%;
+    z-index: 1111;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.main .home .right .card-2 .img img{
+    width: 200px;
+    height: 180px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.main .home .right .card-2 .img{
+    width: 100%;
+    height: 60%;
+    /* background-image: url(https://media.nftb.io/media/thumbnails/nfts/HDl8g4zao1uwDYcFohKGx31649236276320.jpg); */
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5%;
+}
+.main .home .right .card-2 .name{
+    width: 100%;
+    height: 20%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .home .right .card-2 .name .na{
+    width: 70%;
+    height: 100%;
+    padding: 8px;
+    margin-left: 9px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main .home .right .card-2 .name .min-img{
+    width: 25%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .home .right .card-2 .name .min-img .m-i{
+    width: 70%;
+    height: 70%;
+    background-image: url(https://assets.traveltriangle.com/blog/wp-content/uploads/2016/02/guru-shikhar-peak-cover.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+.main .home .right .card-2 .bottom .null{
+    color: #e5e3e3;
+    margin-left: 10px;
+}
+.main .home .right .card-2 .bottom h4{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+.main .home .right .card-2 .bottom{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(57, 56, 56);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
